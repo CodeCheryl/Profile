@@ -38,7 +38,7 @@ header {
 
 header h1 {
   margin-left: 0.5em;
-  width: 80%;
+  width: 75%;
   text-align: right;
   word-spacing: -0.25em;
 }
@@ -73,7 +73,7 @@ a:hover {
 .hamburger {
   border: none;
   background-color: transparent;
-  font-size: 1.15em;
+  font-size: 1.5em;
   cursor: pointer;
   color: #000062;
 }
