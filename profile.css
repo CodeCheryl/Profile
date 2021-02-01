@@ -139,11 +139,13 @@ section {
 
 #arrow {
   text-align: center;
-  rotate: 90deg;
+  display: block;
+  transform: rotate(90deg);
+  font-size: 1.2em;
 }
 
 #arrow:hover {
-  transform: scale(1.3);
+  transform: scale(1.3) rotate(90deg);
 }
 
 #web-dev {
