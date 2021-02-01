@@ -6,6 +6,7 @@ hamburger.addEventListener("click", toggleHamburger);
 let header = document.querySelector("header");
 let helloBorder = document.querySelector(".hello")
 let navLinks = document.querySelectorAll(".nav-links")
+let shrink = document.querySelector(".shrink")
 //hamburger menu
 function toggleHamburger() {
   navbar.classList.toggle("showNav");
@@ -33,6 +34,16 @@ function showBackground() {
   }
 }
 window.addEventListener("scroll", showBackground);
+
+//shrink h1 header on scroll
+function shrinkH1() {
+  if (scrollY > 50) {
+    shrink.style.fontSize = "24px"
+  } else {
+    shrink.style.fontSize = "32px"
+  }
+}
+window.addEventListener("scroll", shrinkH1);
 
 /*TODO fix scroll border change for Hello World
 function toggleHelloBorder() {
