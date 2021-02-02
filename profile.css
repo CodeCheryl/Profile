@@ -154,10 +154,6 @@ section {
   color: #007fff;
 }
 
-#welcome-section {
-  scroll-margin-top: 6em;
-}
-
 .projects {
   display: flex;
   flex-direction: column;
