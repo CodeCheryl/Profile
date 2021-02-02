@@ -158,7 +158,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-margin-top: 6.5em;
+  scroll-margin-top: 8em;
 }
 
 .projects h2 {
