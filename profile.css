@@ -117,6 +117,7 @@ section {
   padding: 1em;
   width: 80%;
   text-align: center;
+  scroll-margin-top: 10em;
 }
 
 .hello:hover {
@@ -153,6 +154,8 @@ section {
   font-size: 1.5em;
   font-weight: 600;
   color: #007fff;
+  margin: .1em;
+  width: 100%;
 }
 
 .projects {
@@ -298,5 +301,6 @@ footer a {
     width: 85%;
     line-height: 1.5em;
   }
+
 
 }
