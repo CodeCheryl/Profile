@@ -142,6 +142,7 @@ section {
   display: block;
   transform: rotate(90deg);
   font-size: 1.2em;
+  width: 100%;
 }
 
 #arrow:hover {
@@ -252,7 +253,6 @@ footer a {
 
   #welcome-section {
     width: 50%;
-    margin: 5em 0;
   }
 
   footer {
