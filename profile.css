@@ -154,10 +154,15 @@ section {
   color: #007fff;
 }
 
+#welcome-section {
+  scroll-margin-top: 6em;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-margin-top: 4.5em;
 }
 
 .projects h2 {
@@ -251,7 +256,6 @@ footer a {
 
   #welcome-section {
     width: 50%;
-    margin: 5em 0;
   }
 
   footer {
@@ -297,4 +301,9 @@ footer a {
     width: 85%;
     line-height: 1.5em;
   }
+
+  .projects {
+    scroll-margin-top: 6.5em;
+  }
+
 }
