@@ -162,7 +162,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-margin-top: 8em;
+  padding-top: 8em;
+  margin-top: -8em;
 }
 
 .projects h2 {
