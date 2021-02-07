@@ -117,6 +117,7 @@ section {
   padding: 1em;
   width: 80%;
   text-align: center;
+  align-items: center;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -147,8 +148,8 @@ section {
   display: block;
   transform: rotate(90deg);
   font-size: 1.2em;
-  width: 100%;
   outline: none;
+  margin: 0;
 }
 
 #arrow:hover {
