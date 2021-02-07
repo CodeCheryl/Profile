@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 10% 0;
+  margin: 0;
   height: 100%;
   color: #000062;
   font-family: Quicksand, sans-serif;
@@ -24,7 +24,7 @@ header {
   flex-direction: row-reverse;
   top: 0;
   left: 0;
-  position: fixed;
+  position: sticky;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -76,6 +76,7 @@ a:hover {
   font-size: 1.5em;
   cursor: pointer;
   color: #000062;
+  outline: none;
 }
 
 .hamburger:hover {
@@ -113,11 +114,14 @@ section {
 .hello {
   border-radius: 30px;
   box-shadow: 10px 10px #006231, inset 10px 10px #007fff;
-  margin: 10em 0;
   padding: 1em;
   width: 80%;
   text-align: center;
-  scroll-margin-top: 10em;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.2em;
 }
 
 .hello:hover {
@@ -144,6 +148,7 @@ section {
   transform: rotate(90deg);
   font-size: 1.2em;
   width: 100%;
+  outline: none;
 }
 
 #arrow:hover {
