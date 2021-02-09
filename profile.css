@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: left;
   background: linear-gradient(-45deg, #9fcfff, #b8dcff, #d2e8ff, #ebf5ff);
 }
 
@@ -76,22 +75,22 @@ a:hover {
   font-size: 1.5em;
   cursor: pointer;
   color: #000062;
-  outline: none;
   min-width: 2em;
+  transform: rotate(90deg);
 }
 
 .hamburger:hover {
   color: #007fff;
 }
 
+.hamburger:focus {
+  outline: .1em dotted #007fff;
+}
+
 header ul {
   padding: 0.5em 1em 1em 0;
   display: flex;
   width: 90vw;
-}
-
-.menu {
-  transform: rotate(90deg);
 }
 
 .navbar {
