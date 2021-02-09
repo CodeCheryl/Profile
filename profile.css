@@ -77,14 +77,11 @@ a:hover {
   cursor: pointer;
   color: #000062;
   outline: none;
+  min-width: 2em;
 }
 
 .hamburger:hover {
   color: #007fff;
-}
-
-.hamburger:focus {
-  outline: none;
 }
 
 header ul {
@@ -202,6 +199,7 @@ section {
     #006231,
     #004924
   );
+
   margin: 2em;
   border-radius: 15px;
   box-shadow: 10px 10px #007fff;
