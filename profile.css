@@ -111,10 +111,10 @@ section {
   border-radius: 30px;
   box-shadow: 10px 10px #006231, inset 10px 10px #007fff;
   padding: 1em;
-  width: 80%;
+  width: 65%;
   text-align: center;
   align-items: center;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -252,6 +252,7 @@ footer a {
   body {
     margin: 0;
   }
+
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
@@ -259,7 +260,7 @@ footer a {
   }
 
   #welcome-section {
-    width: 50%;
+    height: initial;
   }
 
   footer {
@@ -305,6 +306,5 @@ footer a {
     width: 85%;
     line-height: 1.5em;
   }
-
 
 }
